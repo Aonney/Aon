@@ -1,0 +1,37 @@
+.navbar-custom {
+  display: flex;
+  justify-content: space-between; /* จัดแต่ละ item ให้อยู่ห่างกันแบบสมดุล */
+  align-items: center;
+  background-color: #f8f9fa;
+  padding: 10px 20px; /* ระยะขอบด้านในของ navbar */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* ใส่เงาเบาๆ */
+}
+
+.menu-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: #333;
+  font-size: 14px;
+  margin: 0 15px; /* เพิ่มระยะห่างระหว่าง menu-item */
+  text-decoration: none;
+}
+
+.menu-item i {
+  font-size: 24px;
+  margin-bottom: 5px; /* เพิ่มระยะระหว่างไอคอนกับข้อความ */
+}
+
+.menu-item:hover {
+  color: #007bff; /* สีเมื่อ hover */
+}
+
+.logo {
+  flex-shrink: 0; /* ป้องกันโลโก้บีบตัว */
+}
+
+.logo img {
+  width: 60px; /* กำหนดขนาดโลโก้ */
+  height: auto;
+}

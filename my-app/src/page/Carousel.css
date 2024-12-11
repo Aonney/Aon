@@ -1,0 +1,43 @@
+/* Carousel.css */
+.carousel {
+    margin: 20px auto; /* กำหนดระยะห่างรอบๆ Carousel */
+    max-width: 1900px; /* จำกัดความกว้าง */
+    border-radius: 20px; /* มุมโค้ง */
+    overflow: hidden; /* ซ่อนส่วนเกิน */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* เพิ่มเงา */
+  }
+  
+  .carousel img {
+    height: 600px;
+    object-fit: cover; /* จัดรูปภาพให้ครอบคลุมพื้นที่ */
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5); /* เพิ่มสีพื้นหลังให้ลูกศร */
+    border-radius: 50%; /* มุมโค้งของลูกศร */
+    padding: 10px; /* เพิ่มพื้นที่ภายใน */
+  }
+  
+  .carousel-control-prev-icon:hover,
+  .carousel-control-next-icon:hover {
+    background-color: rgba(0, 0, 0, 0.8); /* เปลี่ยนสีเมื่อ hover */
+  }
+  
+  .carousel-indicators [data-bs-target] {
+    background-color: #007bff; /* สีของจุด indicator */
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+  }
+  
+  .carousel-indicators .active {
+    background-color: #0056b3; /* สีเมื่อ active */
+  }
+  
+  .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); /* สีพื้นหลังโปร่งใส */
+    padding: 10px 20px;
+    border-radius: 5px; /* มุมโค้ง */
+  }
+  

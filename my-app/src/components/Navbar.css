@@ -1,0 +1,51 @@
+/* Navbar.css */
+.navbar-custom {
+    display: flex;
+    justify-content: space-between; /* จัดระยะห่างระหว่างเมนู */
+    align-items: center;
+    background-color: #ffffff; /* สีพื้นหลัง */
+    padding: 10px 20px; /* ระยะห่างด้านใน */
+    border-bottom: 2px solid #f0f0f0; /* เส้นขอบล่าง */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* เพิ่มเงา */
+  }
+  
+  .menu-item {
+    display: flex;
+    flex-direction: column; /* จัดไอคอนกับข้อความในแนวตั้ง */
+    align-items: center;
+    font-size: 14px;
+    color: #555555; /* สีข้อความ */
+    cursor: pointer;
+    transition: all 0.3s ease; /* เพิ่มเอฟเฟกต์เวลา hover */
+    margin: 0 15px;
+  }
+  
+  .menu-item i {
+    font-size: 24px; /* ขนาดไอคอน */
+    color: #007bff; /* สีไอคอน */
+    margin-bottom: 5px;
+  }
+  
+  .menu-item:hover {
+    color: #007bff; /* เปลี่ยนสีเมื่อ hover */
+  }
+  
+  .menu-item:hover i {
+    transform: scale(1.2); /* ขยายไอคอนเมื่อ hover */
+  }
+  
+  .menu-item p {
+    margin: 0;
+    font-size: 12px; /* ขนาดข้อความ */
+  }
+  
+  .logo img {
+    height: 100px; /* กำหนดขนาดโลโก้ */
+    width: 100px;
+    transition: transform 0.3s ease; /* เพิ่มเอฟเฟกต์เวลา hover */
+  }
+  
+  .logo img:hover {
+    transform: rotate(360deg); /* หมุนโลโก้เมื่อ hover */
+  }
+  
